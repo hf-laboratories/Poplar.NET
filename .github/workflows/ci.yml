@@ -1,0 +1,34 @@
+name: Build & Test
+
+on:
+  push:
+    branches: [ main ]
+    tags: [ 'v*' ]
+  pull_request:
+    branches: [ main ]
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: Build & Test
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 10.0.x
+
+      - name: Restore dependencies
+        run: dotnet restore Poplar.NET.slnx
+
+      - name: Build Solution
+        run: dotnet build Poplar.NET.slnx --configuration Release --no-restore
+
+      - name: Run Unit Tests
+        run: dotnet test tests/Poplar.NET.Tests.csproj --configuration Release --no-build

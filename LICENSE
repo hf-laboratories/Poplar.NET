@@ -1,0 +1,89 @@
+HFLabs Poplar.NET Binary Distribution License
+
+Copyright (c) 2025-2026 HF Laboratories. All rights reserved.
+
+
+1. WHAT THIS COVERS
+
+"Binaries" means the compiled Poplar.NET runtime distributed by HF
+Laboratories, including HFLabs.Poplar.NET.dll, libPoplarCppAPIWrapper.so, and
+any other compiled file in a release. The source code of the Binaries is
+proprietary to HF Laboratories and is not published. No license to it is
+granted.
+
+Other material in this repository is treated as follows:
+
+  - src/Poplar.NET.Contracts/ and examples/ are licensed under the Apache
+    License 2.0. See LICENSE-APACHE-2.0.
+  - README.md, WHITEPAPER.md, and docs/ are documentation. All rights are
+    reserved. You may read and link to them, and quote short excerpts with
+    attribution.
+
+
+2. FREE USE
+
+HF Laboratories grants you a non-exclusive, non-transferable, revocable license
+to install and run the Binaries, unmodified, for:
+
+  (a) evaluation, and
+  (b) non-commercial academic research, teaching, and personal learning.
+
+
+3. COMMERCIAL USE
+
+Production use, use in a business or for commercial gain, and embedding the
+Binaries in a product or service require a commercial license. Commercial
+licenses are granted by written agreement with HF Laboratories. Contact
+alix@HFLabs.dev.
+
+
+4. RESTRICTIONS
+
+Without written permission from HF Laboratories, you may not:
+
+  (a) copy or redistribute the Binaries, except for the copy you install and
+      one backup copy;
+  (b) modify, adapt, or translate the Binaries, or create derivative works
+      from them;
+  (c) reverse engineer, decompile, or disassemble the Binaries, or try to
+      derive their source code, except to the extent applicable law allows
+      this despite this restriction;
+  (d) remove or change any copyright or license notice;
+  (e) sublicense, sell, rent, lease, or host the Binaries for third parties.
+
+
+5. OWNERSHIP
+
+HF Laboratories owns the Binaries and keeps all rights not expressly granted in
+this license. The Binaries are licensed to you, not sold.
+
+
+6. THIRD-PARTY SOFTWARE AND HARDWARE
+
+The Binaries need the Graphcore Poplar SDK and Graphcore IPU hardware, or the
+IPU Model, which you obtain under Graphcore's own terms. This license does not
+cover them.
+
+
+7. EARLIER RELEASES
+
+Copies of Poplar.NET obtained before this license was adopted, including the
+v1.0.0-preview binaries, were distributed under the Apache License 2.0 and stay
+licensed to their recipients on those terms. This license applies to material
+published from the commit that adopted it and in later releases.
+
+
+8. TERMINATION
+
+Your rights under this license end automatically if you breach it. When they
+end, delete all copies of the Binaries.
+
+
+9. NO WARRANTY, LIMITED LIABILITY
+
+THE BINARIES ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL HF
+LABORATORIES BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE BINARIES OR THE USE OR OTHER DEALINGS IN THE BINARIES.

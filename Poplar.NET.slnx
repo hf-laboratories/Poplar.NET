@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/examples/">
+    <Project Path="examples/Poplar.NET.Examples.csproj" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/Poplar.NET.Contracts/Poplar.NET.Contracts.csproj" />
+  </Folder>
+</Solution>

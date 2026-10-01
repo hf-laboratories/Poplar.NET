@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <AssemblyName>HFLabs.Poplar.NET.Contracts</AssemblyName>
+    <RootNamespace>HFLabs.Poplar</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Version>1.0.0-preview</Version>
+    <Authors>HF.Labs</Authors>
+    <Company>HF Laboratories</Company>
+    <Description>Public API contracts and interface signatures for Poplar.NET Graphcore IPU runtime.</Description>
+    <RepositoryUrl>https://github.com/hf-laboratories/Poplar.NET</RepositoryUrl>
+  </PropertyGroup>
+</Project>
